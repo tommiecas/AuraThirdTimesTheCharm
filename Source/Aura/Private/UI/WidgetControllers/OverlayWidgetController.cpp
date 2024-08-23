@@ -14,9 +14,6 @@ void UOverlayWidgetController::BroadcastInitialValues()
 	OnMaxHealthChanged.Broadcast(AuraAttributeSet->GetMaxHealth());
 	OnManaChanged.Broadcast(AuraAttributeSet->GetMana());
 	OnMaxManaChanged.Broadcast(AuraAttributeSet->GetMaxMana());
-
-
-	
 }
 
 void UOverlayWidgetController::BindCallbacksToDependencies()
@@ -39,7 +36,7 @@ void UOverlayWidgetController::BindCallbacksToDependencies()
 		[this](const FGameplayTagContainer& AssetTags)
 		{
 			for (const FGameplayTag& Tag : AssetTags)
-			{
+			{	
 				// "A.1".MatchesTag("A") will return True, "A".MatchesTag("A.1") will return False;
 				// if tag is Message.HealthPotion....
 				// "Message.HealthPotion".MatchesTag("Message") will return True. "Message".MatchesTag("Message.HealthPotion") will return False.
