@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7730e148-d8a9-402e-b6f8-d2ccceba5b12" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/Characters/AuraCharacterBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/Characters/AuraCharacterBase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/Characters/AuraCharacterBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/Characters/AuraCharacterBase.h" afterDir="false" />
-    </list>
+    <list default="true" id="7730e148-d8a9-402e-b6f8-d2ccceba5b12" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +29,8 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/AuraAbilitySystemComponent.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -177,7 +176,7 @@
       <workItem from="1724281904715" duration="5226000" />
       <workItem from="1724287339358" duration="3209000" />
       <workItem from="1724293154162" duration="25920000" />
-      <workItem from="1724456648659" duration="4065000" />
+      <workItem from="1724456648659" duration="4683000" />
     </task>
     <servers />
   </component>
