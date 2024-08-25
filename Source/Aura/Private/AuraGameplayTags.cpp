@@ -53,12 +53,12 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 
 	GameplayTags.Attributes_Secondary_CriticalHitChance = UGameplayTagsManager::Get().AddNativeGameplayTag(
 		FName("Attributes.Secondary.CriticalHitChance"),
-		FString(" Based off Armor Penetration, chance to double your damage plus score a Critical Hit Bonus")
+		FString("Based off Armor Penetration, chance to double your damage plus score a Critical Hit Bonus")
 		);
 
 	GameplayTags.Attributes_Secondary_CriticalHitDamage = UGameplayTagsManager::Get().AddNativeGameplayTag(
 		FName("Attributes.Secondary.CriticalHitDamage"),
-		FString(" Based off Armor Penetration, chance to double your damage plus score a Critical Hit Bonus")
+		FString("Based off Armor Penetration, chance to double your damage plus score a Critical Hit Bonus")
 		);
 
 	GameplayTags.Attributes_Secondary_CriticalHitResistance = UGameplayTagsManager::Get().AddNativeGameplayTag(
@@ -68,22 +68,22 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 
 	GameplayTags.Attributes_Secondary_HealthRegeneration = UGameplayTagsManager::Get().AddNativeGameplayTag(
 			FName("Attributes.Secondary.HealthRegeneration"),
-			FString("Based off Vigor, amount of Health regenerated every one second")
+			FString("Based off Vigor, the amount of Health regenerated every one second")
 			);
 
 	GameplayTags.Attributes_Secondary_ManaRegeneration = UGameplayTagsManager::Get().AddNativeGameplayTag(
 			FName("Attributes.Secondary.ManaRegeneration"),
-			FString("Based off Vigor, amount of Health regenerated every one second")
+			FString("Based off Intelligence, the amount of Mana regenerated every one second")
 			);
 
 	GameplayTags.Attributes_Secondary_MaxHealth = UGameplayTagsManager::Get().AddNativeGameplayTag(
 			FName("Attributes.Secondary.MaxHealth"),
-			FString("Maximum amount of Health obtainable at any given time")
+			FString("Based off Vigor, the maximum amount of Health obtainable at any given time")
 			);
 	
 	GameplayTags.Attributes_Secondary_MaxMana = UGameplayTagsManager::Get().AddNativeGameplayTag(
 		FName("Attributes.Secondary.MaxMana"),
-		FString("Maximum amount of Mana obtainable at any given time")
+		FString("Based off Intelligence, the maximum amount of Mana obtainable at any given time")
 		);
 
 }
