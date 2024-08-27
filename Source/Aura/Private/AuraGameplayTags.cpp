@@ -119,4 +119,9 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 		FName("InputTag.Ability4"),
 		FString("Input Tag for the '4' Key (when using a mouse and keyboard), or the 'Right' button on the left-hand-side D-Pad (when using a gamepad controller)")
 		);
+
+	GameplayTags.Damage = UGameplayTagsManager::Get().AddNativeGameplayTag(
+		FName("Damage"),
+		FString("Damage")
+		);
 }

@@ -40,6 +40,8 @@ public:
 	FGameplayTag InputTag_Ability3;
 	FGameplayTag InputTag_Ability4;
 
+	FGameplayTag Damage;
+
 private:
     static FAuraGameplayTags GameplayTags;
  
