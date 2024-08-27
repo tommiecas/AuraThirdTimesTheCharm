@@ -205,12 +205,7 @@ public:
 	
 	UFUNCTION()
 	void OnRep_Mana(const FGameplayAttributeData& OldMana) const;
-	
-private:
-	void SetEffectProperties(const FGameplayEffectModCallbackData& Data, FEffectProperties& Props) const;
 
-	void ShowFloatingText(const FEffectProperties& Props, float Damage);
-	
 	/**
 	 ** Meta Attributes
 	 **/
@@ -218,5 +213,11 @@ private:
 	UPROPERTY(EditDefaultsOnly, Category = "Meta Attributes")
 	FGameplayAttributeData IncomingDamage;
 	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, IncomingDamage);
+private:
+	void SetEffectProperties(const FGameplayEffectModCallbackData& Data, FEffectProperties& Props) const;
+
+	void ShowFloatingText(const FEffectProperties& Props, float Damage);
+	
+	
 	
 };
