@@ -41,6 +41,7 @@ public:
 	FGameplayTag InputTag_Ability4;
 
 	FGameplayTag Damage;
+	FGameplayTag Effects_HitReact;
 
 private:
     static FAuraGameplayTags GameplayTags;
