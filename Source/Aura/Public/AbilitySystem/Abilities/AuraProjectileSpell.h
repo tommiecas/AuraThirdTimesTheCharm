@@ -3,11 +3,11 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "../../../../../../../../../../Program Files/Epic Games/UE_5.4/Engine/Plugins/Online/VoiceChat/VoiceChat/Source/Public/VoiceChat.h"
 #include "AbilitySystem/Abilities/AuraGameplayAbility.h"
 #include "AuraProjectileSpell.generated.h"
 
 class AAuraProjectile;
+class UGameplayEffect;
 
 /**
  * 
