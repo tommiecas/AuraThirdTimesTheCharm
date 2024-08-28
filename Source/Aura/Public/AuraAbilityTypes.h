@@ -17,17 +17,15 @@ public:
 	void SetIsBlockedHit(bool bInIsBlockedHit) { bIsBlockedHit = bInIsBlockedHit; }
 
 	/** Returns the actual struct used for serialization, subclasses must override this! */
-	// virtual UScriptStruct* GetScriptStruct() const
-	// {
-	// 	return FGameplayEffectContext::StaticStruct();
-	// }
+	virtual UScriptStruct* GetScriptStruct() const { return FGameplayEffectContext::StaticStruct(); }
 
 	/** Custom serialization, subclasses must override this */
-//	virtual bool NetSerialize(FArchive& Ar, UPackageMap* Map, bool& bOutSuccess) override;
+	virtual bool NetSerialize(FArchive& Ar, UPackageMap* Map, bool& bOutSuccess) override;
 
 protected:
 	UPROPERTY()
 	bool bIsBlockedHit = false;
+	
 	UPROPERTY()
 	bool bIsCriticalHit = false;
 };
