@@ -10,13 +10,13 @@ bool FAuraGameplayEffectContext::NetSerialize(FArchive& Ar, UPackageMap* Map, bo
 		{
 			RepBits |= 1 << 0;
 		}
-		if (bReplicateEffectCauser && EffectCauser.IsValid())
+		if (bReplicateEffectCauser && EffectCauser.IsValid() )
 		{
 			RepBits |= 1 << 1;
 		}
 		if (AbilityCDO.IsValid())
 		{
-			RepBits |=1 << 2;
+			RepBits |= 1 << 2;
 		}
 		if (bReplicateSourceObject && SourceObject.IsValid())
 		{
@@ -43,9 +43,8 @@ bool FAuraGameplayEffectContext::NetSerialize(FArchive& Ar, UPackageMap* Map, bo
 			RepBits |= 1 << 8;
 		}
 	}
-	
 
-	Ar. SerializeBits(&RepBits, 9);
+	Ar.SerializeBits(&RepBits, 9);
 
 	if (RepBits & (1 << 0))
 	{
@@ -98,9 +97,9 @@ bool FAuraGameplayEffectContext::NetSerialize(FArchive& Ar, UPackageMap* Map, bo
 
 	if (Ar.IsLoading())
 	{
-		AddInstigator(Instigator.Get(), EffectCauser.Get()); //Just to initialize InstigatorAbilitySystemComponent
-	}
-
+		AddInstigator(Instigator.Get(), EffectCauser.Get()); // Just to initialize InstigatorAbilitySystemComponent
+	}	
+	
 	bOutSuccess = true;
 	return true;
 }
