@@ -141,11 +141,11 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 
 	GameplayTags.Damage_Arcane = UGameplayTagsManager::Get().AddNativeGameplayTag(
 		FName("Damage.Arcane"),
-		FString("Damage of a Magical Nature")
+		FString("Damage of a Magical nature")
 		);
 
 	GameplayTags.Damage_Physical = UGameplayTagsManager::Get().AddNativeGameplayTag(
-		FName("Damage.Fire"),
+		FName("Damage.Physical"),
 		FString("Damage will Injure")
 		);
 	
@@ -169,8 +169,8 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 		);
 
 	GameplayTags.Attributes_Resistances_Physical = UGameplayTagsManager::Get().AddNativeGameplayTag(
-		FName("Attributes.Resistances.Fire"),
-		FString("Resistant to Injuries")
+		FName("Attributes.Resistances.Physical"),
+		FString("Resistant to Physical Injuries")
 		);
 
 	 /*
