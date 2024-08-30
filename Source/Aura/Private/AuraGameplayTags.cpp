@@ -190,4 +190,13 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 		FName("Effects.HitReact"),
 		FString("HitReact")
 		);
+
+	/*
+	** Abilities
+	*/
+
+	GameplayTags.Abilities_Attack = UGameplayTagsManager::Get().AddNativeGameplayTag(
+		FName("Abilities.Attack"),
+		FString("Grants Enemies the ability to inflict Damage on the Player")
+		);
 }
