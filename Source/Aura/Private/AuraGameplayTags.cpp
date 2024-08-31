@@ -199,4 +199,23 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 		FName("Abilities.Attack"),
 		FString("Grants Enemies the ability to inflict Damage on the Player")
 		);
+
+	/*
+	** Abilities
+	*/
+
+	GameplayTags.Montage_Attack_Weapon = UGameplayTagsManager::Get().AddNativeGameplayTag(
+		FName("Montage.Attack.Weapon"),
+		FString("Grants Enemies, like Ghouls, the ability to inflict Damage with their Weapon")
+		);
+
+	GameplayTags.Montage_Attack_RightHand = UGameplayTagsManager::Get().AddNativeGameplayTag(
+	FName("Montage.Attack.RightHand"),
+	FString("Grants Enemies, like Ghouls, the ability to inflict Damage with their Right Hand")
+	);
+
+	GameplayTags.Montage_Attack_LeftHand = UGameplayTagsManager::Get().AddNativeGameplayTag(
+	FName("Montage.Attack.LeftHand"),
+	FString("Grants Enemies, like Ghouls, the ability to inflict Damage with their Left Hand")
+	);
 }
