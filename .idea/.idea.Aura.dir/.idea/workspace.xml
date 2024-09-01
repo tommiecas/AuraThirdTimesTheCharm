@@ -8,10 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7730e148-d8a9-402e-b6f8-d2ccceba5b12" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Enemies/Ghoul/PA_Ghoul.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Enemies/Ghoul/PA_Ghoul.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Enemies/Ghoul/SKM_Ghoul.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Enemies/Ghoul/SKM_Ghoul.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/AI/BehaviorTree/BT_EnemyBehaviorTree.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/AI/BehaviorTree/BT_EnemyBehaviorTree.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/AI/EQs/EQ_FindRangedAttackPosition.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/AI/EQs/EQ_FindRangedAttackPosition.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/AI/Tasks/BTT_EnemyAttack.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/AI/Tasks/BTT_EnemyAttack.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Maps/EQS_TestingMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/EQS_TestingMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/AbillitySystem/Data/CT_Damage.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/AbillitySystem/Data/CT_Damage.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/AbillitySystem/Data/DA_CharacterClassInfo.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/AbillitySystem/Data/DA_CharacterClassInfo.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/AbillitySystem/GameplayAbilities/Fire/FireBolt/GA_FireBolt.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/AbillitySystem/GameplayAbilities/Fire/FireBolt/GA_FireBolt.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/AnimNotifies/AN_MontageEventBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/AnimNotifies/AN_MontageEventBase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Characters/Enemies/BP_EnemyBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Characters/Enemies/BP_EnemyBase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Characters/Enemies/Goblins/Goblin_Slingshots/BP_Goblin_Slingshot.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Characters/Enemies/Goblins/Goblin_Slingshots/BP_Goblin_Slingshot.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Characters/Enemies/Goblins/Goblin_Spears/BP_Goblin_Spear.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Characters/Enemies/Goblins/Goblin_Spears/BP_Goblin_Spear.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Maps/StartupMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/StartupMap.umap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +85,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Uproject.Aura.executor": "Debug",
-    "git-widget-placeholder": "Aura5.0",
+    "git-widget-placeholder": "Aura6.0",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
